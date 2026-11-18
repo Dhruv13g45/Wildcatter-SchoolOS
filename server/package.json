@@ -1,0 +1,29 @@
+{
+  "name": "schoolos-enterprise-backend",
+  "version": "1.0.0",
+  "description": "SchoolOS Enterprise Backend - AI-Native School OS with Autonomous Agent Matrix, PostgreSQL Drizzle ORM, Zod Validation, and Razorpay Multi-Split Liquidation",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "drizzle:studio:port": "drizzle-kit studio --port 5175",
+    "drizzle:studio": "drizzle-kit studio --port 5175"
+  },
+  "dependencies": {
+    "@google/genai": "^3.4.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.38.4",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.13.1",
+    "razorpay": "^2.9.8",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.11"
+  }
+}

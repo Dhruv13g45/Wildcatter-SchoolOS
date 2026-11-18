@@ -1,0 +1,23 @@
+{
+  "name": "wildcatters-schoolos-enterprise",
+  "version": "1.0.0",
+  "description": "SchoolOS Enterprise - AI-Native School Operating System for Desktop & Mobile",
+  "scripts": {
+    "start": "node server/src/server.js",
+    "build": "npm --prefix client run build",
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client run dev"
+  },
+  "keywords": [
+    "schoolos",
+    "enterprise",
+    "ai-agents",
+    "drizzle-orm",
+    "postgresql",
+    "react",
+    "express"
+  ],
+  "author": "Dhruv",
+  "license": "PROPRIETARY - WildCatter Ventures"
+}
+
